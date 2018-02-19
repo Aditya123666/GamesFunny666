@@ -12,17 +12,17 @@
         android:orientation="vertical"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_marginTop="20dp"
-            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
             android:layout_gravity="center"
-            android:layout_height="100dp"
-            android:src="@drawable/tttiv5"
+            android:layout_height="150dp"
+            android:src="@drawable/backgf"
             />
         <TextView
             android:layout_width="match_parent"
             android:textColor="#fff"
             android:layout_height="wrap_content"
-            android:text="Aplikasi game ini bernama (FUNNYGAMES),game ini di dirikan oleh BSO,dengan perwakilan anggota Putri,Aditya dan Fathimah,Funny Games Versi 1.0 ini terbit di Play Store pada 8 Februari 2018"
+            android:text="Aplikasi game ini bernama (FUNNYGAMES), game ini di dirikan oleh BSO,dengan perwakilan anggota Putri,Aditya dan Fathimah,Funny Games Versi 1.0 ini terbit di Play Store pada 8 Februari 2018"
             android:textSize="20dp"
             />
     </LinearLayout>

@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
 
-            android:background="@color/colorBabyPink"
+            android:background="@color/awan"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -47,18 +47,18 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="NAMA : Putri" />
+                    android:text="NAMA : Putri Mariah Ulfa" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HOBBY" />
+                    android:text="HOBBY : Baca Novel,Movie Marathon" />
 
                 <Button
                     android:id="@+id/sosmed1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="INSTAGRAM" />
+                    android:text="GITHUB" />
 
             </LinearLayout>
 
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@color/colorBabyPink"
+            android:background="@color/awan"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -94,18 +94,18 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="NAMA " />
+                    android:text="NAMA : Fathimah Azzahro Hasni Rifayanti" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HOBBY" />
+                    android:text="HOBBY : Browsing,Main Game,Baca Artikel" />
 
                 <Button
                     android:id="@+id/sosmed2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="INSTAGAM" />
+                    android:text="GITHUB" />
 
             </LinearLayout>
 
@@ -115,6 +115,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:background="@color/awan"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -127,7 +128,7 @@
                     android:layout_width="100dp"
                     android:layout_marginLeft="10dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/back3" />
+                    android:src="@drawable/adit1" />
 
             </LinearLayout>
 
@@ -140,18 +141,19 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="NAMA " />
+                    android:text="NAMA : Aditya Nugraha Adha" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HOBBY" />
+                    android:text="HOBBY : Kolektor Action Figure" />
 
                 <Button
                     android:id="@+id/sosmed3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="INSTAGRAM" />
+                    android:text="GITHUB"
+                    />
 
             </LinearLayout>
 

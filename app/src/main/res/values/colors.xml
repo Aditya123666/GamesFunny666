@@ -3,5 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="green">#717e1e</color>
     <color name="colorBabyPink">#f7afc7</color>
+    <color name="merah">#ff0307</color>
+    <color name="awan">#e0bcf1</color>
+    <color name="ungu">#9e2f9a</color>
 </resources>
