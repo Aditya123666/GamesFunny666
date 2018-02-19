@@ -25,7 +25,7 @@ public class TentangKita extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW);
-                String urllink = "https://www.facebook.com";
+                String urllink = "https://www.github.com/putrimu";
                 browserIntent.setData(Uri.parse(urllink));
                 startActivity(browserIntent);
             }
@@ -34,7 +34,7 @@ public class TentangKita extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW);
-                String urllink = "https://www.facebook.com";
+                String urllink = "https://www.github.com/fathimahasnir";
                 browserIntent.setData(Uri.parse(urllink));
                 startActivity(browserIntent);
             }
@@ -43,7 +43,7 @@ public class TentangKita extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW);
-                String urllink = "https://www.facebook.com";
+                String urllink = "https://www.github.com/Aditya123666";
                 browserIntent.setData(Uri.parse(urllink));
                 startActivity(browserIntent);
             }

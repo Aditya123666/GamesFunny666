@@ -20,18 +20,17 @@
             </intent-filter>
         </activity>
 
-
-        <activity android:name=".FoodList"
-            android:label="Food List"
-            android:parentActivityName=".MainActivity"
-            />
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".NavBar"
             android:label="@string/title_activity_nav_bar"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+
+            />
         <activity android:name=".help" />
         <activity android:name=".Tentang" />
         <activity android:name=".TentangKita" />
+        <activity android:name=".FoodList" />
         <activity android:name=".GameSatu" />
         <activity android:name=".GameDua" />
         <activity android:name=".GameTiga" />

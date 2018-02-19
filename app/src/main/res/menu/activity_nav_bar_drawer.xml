@@ -17,6 +17,10 @@
             android:id="@+id/ttgkita"
             android:icon="@drawable/kanan"
             android:title="Tentang Developer" />
+        <item
+            android:id="@+id/showplayer"
+            android:icon="@drawable/bso8"
+            android:title="Show Player" />
 
 
     </group>

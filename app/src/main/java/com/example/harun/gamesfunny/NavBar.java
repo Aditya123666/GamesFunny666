@@ -122,7 +122,10 @@ public class NavBar extends AppCompatActivity
         } else if (id == R.id.ttgkita) {
             Intent i = new Intent(NavBar.this,TentangKita.class);
             startActivity(i);
-        }  else if (id == R.id.nav_share) {
+        } else if (id == R.id.showplayer) {
+            Intent i = new Intent(NavBar.this,FoodList.class);
+            startActivity(i);
+
 
         } else if (id == R.id.nav_send) {
             Intent i = new Intent(NavBar.this,MainActivity.class);

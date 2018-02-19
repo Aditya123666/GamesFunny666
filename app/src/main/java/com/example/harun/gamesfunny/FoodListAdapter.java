@@ -13,74 +13,69 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Created by MUL17 on 2/8/2018.
+ * Created by Quoc Nguyen on 13-Dec-16.
  */
 
 public class FoodListAdapter extends BaseAdapter {
 
     private Context context;
-    private int layout;
+    private  int layout;
     private ArrayList<Food> foodsList;
 
-    public FoodListAdapter(Context context,int layout,ArrayList<Food> foodsList){
+    public FoodListAdapter(Context context, int layout, ArrayList<Food> foodsList) {
         this.context = context;
         this.layout = layout;
         this.foodsList = foodsList;
     }
 
     @Override
-    public int getCount(){
+    public int getCount() {
         return foodsList.size();
     }
 
     @Override
-    public Object getItem(int position){
+    public Object getItem(int position) {
         return foodsList.get(position);
     }
 
     @Override
-    public long getItemId(int position){
+    public long getItemId(int position) {
         return position;
     }
 
     private class ViewHolder{
         ImageView imageView;
-        TextView txtName,txtAsal;
+        TextView txtName, txtPrice;
     }
 
     @Override
-    public View getView (int position, View view, ViewGroup viewGroup){
+    public View getView(int position, View view, ViewGroup viewGroup) {
 
         View row = view;
         ViewHolder holder = new ViewHolder();
 
         if(row == null){
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            row = inflater.inflate(layout,null);
+            row = inflater.inflate(layout, null);
 
             holder.txtName = (TextView) row.findViewById(R.id.txtName);
-            holder.txtAsal = (TextView) row.findViewById(R.id.txtAsal);
+            holder.txtPrice = (TextView) row.findViewById(R.id.txtPrice);
             holder.imageView = (ImageView) row.findViewById(R.id.imgFood);
             row.setTag(holder);
         }
-        else{
+        else {
             holder = (ViewHolder) row.getTag();
-
         }
 
         Food food = foodsList.get(position);
 
         holder.txtName.setText(food.getName());
-        holder.txtAsal.setText(food.getAsal());
+        holder.txtPrice.setText(food.getPrice());
 
         byte[] foodImage = food.getImage();
-        Bitmap bitmap = BitmapFactory.decodeByteArray(foodImage, 0,foodImage.length);
+        Bitmap bitmap = BitmapFactory.decodeByteArray(foodImage, 0, foodImage.length);
         holder.imageView.setImageBitmap(bitmap);
-
 
         return row;
     }
-
-
-
 }

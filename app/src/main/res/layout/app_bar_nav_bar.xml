@@ -63,6 +63,7 @@
         android:layout_height="100dp"
         android:src="@drawable/gametiga1"
         />
+
     <include layout="@layout/content_nav_bar" />
 
     <android.support.design.widget.FloatingActionButton

@@ -1,40 +1,47 @@
 package com.example.harun.gamesfunny;
 
 /**
- * Created by MUL17 on 2/8/2018.
+ * Created by Quoc Nguyen on 13-Dec-16.
  */
 
 public class Food {
     private int id;
     private String name;
-    private String asal;
+    private String price;
     private byte[] image;
 
-    public Food (String name, String asal,byte[] image,int id){
+    public Food(String name, String price, byte[] image, int id) {
         this.name = name;
-        this.asal = asal;
+        this.price = price;
         this.image = image;
         this.id = id;
     }
-    public int getId(){
+
+    public int getId() {
         return id;
     }
-    public void setId(int id){
-        this.id =id;
+
+    public void setId(int id) {
+        this.id = id;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public void setName (String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    public String getAsal(){
-        return asal;
+
+    public String getPrice() {
+        return price;
     }
-    public void setAsal(String asal){
-        this.asal=asal;
+
+    public void setPrice(String price) {
+        this.price = price;
     }
-    public byte[] getImage(){
+
+    public byte[] getImage() {
         return image;
     }
 
